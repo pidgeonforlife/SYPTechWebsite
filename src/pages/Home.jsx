@@ -7,7 +7,7 @@ import ProcessBlob from "../components/Homepage/ProcessBlob";
 import SolutionsBlob from "../components/Homepage/SolutionsBlob";
 import AffordableBlob from "../components/Homepage/AffordableBlob";
 import FooterBlob from "../components/Homepage/FooterBlob";
-import './Home.css';
+import '../stylesheet/Home.css';
 
 function Home() {
   return (
