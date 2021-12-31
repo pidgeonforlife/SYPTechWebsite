@@ -1,0 +1,49 @@
+.footer {
+    background-color: #3D4656;
+    height: 530px;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+}
+
+.info-title {
+    font-size: 24px;
+}
+
+p {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.info-column {
+    font-size: 16px;
+}
+
+.navigation-title {
+    font-size: 24px;
+}
+
+.navigation-column {
+    font-size: 16px;
+}
+
+.footer-links {
+    text-decoration: none;
+}
+
+.footer-logo {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        height: 630px;
+    }
+}
