@@ -1,0 +1,32 @@
+.header-content {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    height: 636px;
+    flex-direction: row;
+}
+
+.header-img {
+    width: 400px;
+    pointer-events: none;
+}
+
+.header-paragraph {
+    width: 400px;
+}
+
+.header-image {
+    width: 252px;
+    height: 184px;
+}
+
+.p-title {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.p-text {
+    color: black;
+    font-size: 18px;
+}

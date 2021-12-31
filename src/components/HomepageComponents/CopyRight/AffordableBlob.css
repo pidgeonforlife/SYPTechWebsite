@@ -1,0 +1,68 @@
+.affordable {
+    justify-content: space-between;
+    display: flex;
+    height: 60em;
+}
+
+.affordable-blob-component {
+    position: relative;
+    color: white;
+    top: 63.28px;
+}
+
+.affordableblobimg {
+    width: 439px;
+    height: 591px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.affordable-img {
+    width: 508px;
+    height: 519px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.affordable-blob-text1 {
+    color: black;
+    position: absolute;
+    top: 2em;
+    left: 107px;
+    right: 0;
+    margin: 0 auto;
+    font-size: 48px;
+    max-width: 600px;
+}
+
+.affordable-blob-text2 {
+    color: black;
+    position: absolute;
+    width: 346px;
+    top: 4.3em;
+    left: 4em;
+    right: 0;
+    margin: 0 auto;
+    font-size: 36px;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 960px) {
+    .affordable {
+        flex-direction: column;
+    }
+
+    .affordable-img {
+        width: 411px;
+    }
+
+    .affordableblobimg {
+        width: 411px;
+    }
+}
