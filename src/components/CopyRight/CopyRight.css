@@ -1,0 +1,19 @@
+.copyright {
+    background-color: #97CAFA;
+    height: 78px;
+    width: 100%;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+p {
+    color: white;
+}
+
+@media screen and (max-width: 960px) {
+    .copyright {
+        font-size: 0.9rem;
+    }
+}
