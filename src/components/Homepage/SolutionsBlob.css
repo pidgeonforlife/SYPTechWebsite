@@ -1,7 +1,7 @@
 .solutions {
     justify-content: space-between;
     display: flex;
-    height: 50em;
+    height: 80em;
 }
 
 .solutions-blob-component {
@@ -11,8 +11,8 @@
 }
 
 .solutionsblobimg {
-    width: 316px;
-    height: 398px;
+    width: 505.6px;
+    height: 636.8px;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -21,8 +21,8 @@
 }
 
 .desk-img {
-    width: 624px;
-    height: 602px;
+    width: 998.4px;
+    height: 963.2px;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -37,19 +37,20 @@
     left: 107px;
     right: 0;
     margin: 0 auto;
-    font-size: 48px;
+    font-size: 76.8px;
     max-width: 600px;
 }
+
 
 .solutions-blob-text2 {
     color: black;
     position: absolute;
-    width: 346px;
+    width: 100%;
     top: 4.3em;
-    left: 76px;
+    left: 1.2em;
     right: 0;
     margin: 0 auto;
-    font-size: 36px;
+    font-size: 57.6px;
     max-width: 600px;
 }
 
@@ -58,7 +59,162 @@
         flex-direction: column;
     }
 
-    .desk-img {
-        width: 411px;
+    .solutions-blob-text2 {
+        color: black;
+        position: absolute;
+        width: 346px;
+        top: 4.3em;
+        left: 82.8px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 46.8px;
+        max-width: 300px;
     }
+
+    .solutionsblobimg {
+        width: 410.8px;
+        height: 517.4px;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .solutions-blob-text1 {
+        color: black;
+        position: absolute;
+        top: 2em;
+        left: 50px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 62.4px;
+        max-width: 600px;
+    }
+
+    .solutions-blob-text2 {
+        color: black;
+        position: absolute;
+        width: 10px;
+        top: 4.3em;
+        left: 40px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 36px;
+        max-width: 600px;
+    }
+
+    .desk-img {
+        width: 811.2px;
+        height: 782.6px;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+}
+
+@media screen and (max-width: 1851px) {
+    .solutions {
+        justify-content: space-between;
+        display: flex;
+        height: 60em;
+    }
+
+    .solutions-blob-text2 {
+        color: black;
+        position: absolute;
+        width: 346px;
+        top: 4.3em;
+        left: 82.8px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 46.8px;
+        max-width: 600px;
+    }
+
+    .solutionsblobimg {
+        width: 410.8px;
+        height: 517.4px;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .solutions-blob-text1 {
+        color: black;
+        position: absolute;
+        top: 2em;
+        left: 107px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 62.4px;
+        max-width: 600px;
+    }
+
+    .desk-img {
+        width: 811.2px;
+        height: 782.6px;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+}
+
+@media screen and (max-width: 1350px) {
+    .solutions {
+        justify-content: space-between;
+        display: flex;
+        height: 50em;
+    }
+
+    .solutions-blob-text2 {
+        color: black;
+        position: absolute;
+        width: 346px;
+        top: 4.3em;
+        left: 76px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 36px;
+        max-width: 600px;
+    }
+
+    .solutionsblobimg {
+        width: 316px;
+        height: 398px;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .solutions-blob-text1 {
+        color: black;
+        position: absolute;
+        top: 2em;
+        left: 107px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 48px;
+        max-width: 600px;
+    }
+
+    .desk-img {
+        width: 624px;
+        height: 602px;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
 }
