@@ -1,0 +1,36 @@
+.servicesHeader {
+    height: 600px;
+}
+
+.servicesHeaderBlob {
+    height: 400px;
+    width: 100%;
+}
+
+.servicesHeader button {
+    position: absolute;
+    width: 222px;
+    top: 15em;
+    height: 69px;
+    left: 40%;
+    background: #5240C5;
+    border-radius: 42px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.servicesHeader p {
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top: 2em;
+    left: 5em;
+    right: 0;
+    margin: 0 auto;
+    font-size: 62.4px;
+}
