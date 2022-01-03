@@ -4,6 +4,7 @@ import ServicesHeaderBlob from "../components/Servicespage/ServicesHeaderBlob";
 import Footer from "../components/Footer/Footer"
 import CopyRight from "../components/CopyRight/CopyRight"
 import ServicesPageCard from "../components/Servicespage/ServicesPageCard";
+import ServicesInfo from "../components/Servicespage/servicesInfo";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Navbar />
         <ServicesHeaderBlob />
         <ServicesPageCard />
+        <ServicesInfo />
         <Footer />
         <CopyRight />
     </div>
