@@ -13,8 +13,8 @@ function Home() {
         <ServicesHeaderBlob />
         <ServicesPageCard />
         <ServicesInfo />
-        <Footer />
-        <CopyRight />
+        {/* <Footer />
+        <CopyRight /> */}
     </div>
   );
 }
