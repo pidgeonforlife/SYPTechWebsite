@@ -6,7 +6,7 @@ import CopyRight from "../components/CopyRight/CopyRight"
 import ServicesPageCard from "../components/Servicespage/ServicesPageCard";
 import ServicesInfo from "../components/Servicespage/servicesInfo";
 
-function Home() {
+function Services() {
   return (
     <div>
         <Navbar />
@@ -19,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Services;
