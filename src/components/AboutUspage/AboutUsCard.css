@@ -1,0 +1,68 @@
+.aboutCard {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "aboutCardParagraph aboutCardImage"; 
+    height: 456px;
+}
+
+.aboutCardParagraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: aboutCardParagraph;
+    background-color: #F3CD47;
+}
+
+.aboutCardParagraph {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "aboutCardP"
+      "aboutCardA"; 
+    grid-area: aboutCardParagraph; 
+}
+
+.aboutCardP {
+    grid-area: aboutCardP;
+    place-self: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    color: #FFFFFF; 
+}
+
+.aboutCardA {
+    position: relative;
+    top: -80px;
+    place-self: center;
+    grid-area: aboutCardA;
+    width: 500px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF; 
+}
+
+.aboutCardImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: aboutCardImage; 
+    background-color: #FF9595;
+    height: 456px;
+}
+
+.aboutCardImg1 {
+    width: 453px;
+    height: 243px;
+
+}

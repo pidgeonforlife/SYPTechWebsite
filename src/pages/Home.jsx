@@ -1,7 +1,5 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar"
-import Footer from "../components/Footer/Footer"
-import CopyRight from "../components/CopyRight/CopyRight"
 import HomePageHeader from "../components/Homepage/HomePageHeader";
 import ProcessBlob from "../components/Homepage/ProcessBlob";
 import SolutionsBlob from "../components/Homepage/SolutionsBlob";
@@ -18,8 +16,6 @@ function Home() {
         <SolutionsBlob />
         <AffordableBlob />
         <FooterBlob />
-        <Footer />
-        <CopyRight />
     </div>
   );
 }

@@ -1,0 +1,82 @@
+.aboutHeader {
+    background-color: #60A1DE;
+    height: 620px;  
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "aboutHeaderParagraph aboutHeaderImage";
+}
+  
+.aboutHeaderParagraph {
+    padding: 180px;
+    display: flex;
+    justify-content: center; 
+    grid-area: aboutHeaderParagraph;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF; 
+}
+  
+.aboutHeaderImage { 
+    grid-area: aboutHeaderImage;
+    height: 620px; 
+}
+
+.aboutImg1 {
+    float: right;
+    width: 619px;
+    height: 100%;
+}
+
+.aboutImg2 {
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    margin: 0 2em;
+}
+
+@media screen and (max-width: 1300px) {
+    .aboutImg1 {
+        float: right;
+        width: 500px;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    .aboutImg1 {
+        float: right;
+        width: 100px;
+        height: 100%;
+    }
+
+    .aboutImg2 {
+        width: 150px;
+        height: 150px;
+        margin: 0 -2em;
+    }
+
+    .aboutHeader {
+        height: 250px;  
+    }
+
+    .aboutHeaderParagraph {
+        font-size: 24px;
+        padding: 30px;
+    }
+
+    .aboutHeaderImage {
+        height: 250px;
+    }
+      
+
+}
+  
+  
