@@ -6,7 +6,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -31,11 +31,13 @@
     display: flex;
     align-items: flex-end;
     position: relative;
-    grid-area: homeSolutionsInfo;
     color: #FFFFFF;
+    grid-area: homeSolutionsInfo;
 }
 
 .homeSolutionsInfo p {
+    position: relative;
+    right: 180px;
     width: 361px;
     height: 117px;
     font-family: Lato;
@@ -43,9 +45,13 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
+    text-align: left;
 }
 
 .homeSolutionsInfo a {
+    position: relative;
+    top: 30px;
+    right: 98px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -62,17 +68,36 @@
 }
 
 .homeSolutionsImage img {
+    position: relative;
+    top: -90px;
     width: 520px;
     height: 520px;
 }
   
 .homeSolutionsImage { grid-area: homeSolutionsImage; }
+
+.homePageProcess {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "homeProcessParagraph homeProcessImage"; 
+    grid-area: homePageProcess; 
+}
   
 .homePageAffordable {
     grid-area: homePageAffordable;
     background: rgba(151, 202, 250, 0.5);
     height: 485px;
     width: 100%;
+}
+
+.homeAffordableParagraph {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
 }
 
 .homePageAffordable img {
@@ -94,14 +119,21 @@
 }
 
 .homePageAffordable a {
+    position: relative;
+    top: 25px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-    width: 629px;
     height: 152px;
+    width: 750px;
+}
+
+.homePageAffordable button {
+    position: relative;
+    top: 50px;
 }
 
 .homePageAffordable button {
@@ -117,7 +149,46 @@
     height: 69px;
     border: none;
 }
+
+.homeProcessParagraph {
+    flex-flow: column;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    color: #FFFFFF;
+    grid-area: homeProcessParagraph;
+}
+
+.homeProcessParagraph p {
+    text-align: left;
+    width: 526px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.homeProcessParagraph a {
+    position: relative;
+    top: 40px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 523px;
+    height: 291px;
+}
+
+.homeProcessImage { grid-area: homeProcessImage; }
+
+.homeProcessImage img {
+    width: 339px;
+    height: 384px;
+    position: relative;
+    left: 200px;
+}
   
-.homePageProcess { grid-area: homePageProcess; }
   
   

@@ -21,15 +21,20 @@ function HomePageBody() {
             </div>
           </div>
           <div className='homePageAffordable'>
-              <img src='/images/homeAffordableTop.png' />
-              <p>Affordable For All Businesses.</p>
-              <a>All of our products and services have financing options so that everyone 
+              <div className='homeAffordableImage'>
+                <img src='/images/homeAffordableTop.png' />
+              </div>
+              <div className='homeAffordableParagraph'>
+                <p>Affordable For All Businesses.</p>
+                <a>All of our products and services have financing options so that everyone 
                   is able to start or modernize their business without breaking the bank. 
                   We will keep your situation in mind with all of our business, feel free to 
                   ask about month-to-month financing or equity sharing models.</a>
-              <button>More Info</button>
+                <button>More Info</button>
+              </div>
           </div>
           <div className='homePageProcess'>
+              <div className='homeProcessParagraph'>
               <p>The Process.</p>
               <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -37,6 +42,10 @@ function HomePageBody() {
                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
                   fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                   culpa qui officia deserunt mollit anim id est laborum.</a>
+              </div>
+              <div className='homeProcessImage'>
+                  <img src='/images/processImage.png' />
+              </div>  
           </div>
 
       </div>
