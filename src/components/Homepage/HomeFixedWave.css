@@ -1,0 +1,11 @@
+.homeFixedWave {
+    height: 336px;
+    width: 100%;
+    position: absolute;
+    top: 660px;
+}
+
+.homeFixedWave img {
+    height: 336px;
+    width: 100%;
+}

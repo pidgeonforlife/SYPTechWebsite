@@ -1,10 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar"
 import HomePageHeader from "../components/Homepage/HomePageHeader";
-import ProcessBlob from "../components/Homepage/ProcessBlob";
-import SolutionsBlob from "../components/Homepage/SolutionsBlob";
-import AffordableBlob from "../components/Homepage/AffordableBlob";
-import FooterBlob from "../components/Homepage/FooterBlob";
+import HomeFixedWave from "../components/Homepage/HomeFixedWave";
+import HomePageBody from "../components/Homepage/HomePageBody";
 import '../stylesheet/Home.css';
 
 function Home() {
@@ -12,10 +10,8 @@ function Home() {
     <div>
         <Navbar />
         <HomePageHeader />
-        <ProcessBlob />
-        <SolutionsBlob />
-        <AffordableBlob />
-        <FooterBlob />
+        <HomeFixedWave />
+        <HomePageBody />
     </div>
   );
 }
